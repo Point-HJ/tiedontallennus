@@ -11,7 +11,7 @@ namespace TiedonTallennus
     {
         static void Main(string[] args)
         {
-            string tiedosto = @"C:\Temp\Lämpötila.txt";
+            string tiedosto = @"C:\Users\HeiJoe364\source\repos\Lämpötila.txt";
 
             // luetaan tiedostosta aiemmin asetettu lämpötila
             if (File.Exists(tiedosto))
@@ -19,7 +19,7 @@ namespace TiedonTallennus
 
                 string aiempiArvo = File.ReadAllText(tiedosto);
                 Console.WriteLine("Aiemmin asetettu lämpötila on " +
-                    aiempiArvo + "astetta.");
+                    aiempiArvo + " astetta.");
 
             }
             else
